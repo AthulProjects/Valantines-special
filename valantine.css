@@ -1,0 +1,93 @@
+*{
+    margin: 20px ;
+    align-items: center;
+
+}
+body{
+    align-items: center;
+    padding-left: 50%;
+    margin-left: 90px;
+    padding: 0px 10px;
+    color: rgb(0, 0, 0);
+    border: 3px 4px;
+    position: relative;
+    width: 600px;
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+   font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 0 30px rgb(255, 0, 0);
+    justify-content: center;    
+    align-items: center;
+    background-image: url('./valantine.gif');
+}
+h2{
+    padding: 40px;
+    font-size: xxx-large;
+    font-size: 300spx;
+    color: #000;
+}
+
+/* CSS */
+button {
+    margin-left: 150px;
+    margin-top: 50px;
+  align-items: center;
+  background-color: #72fa93;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 20px;
+  height: 68px;
+  width: 200px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:after {
+  background-color: #e45f2b;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 68px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+button:hover:after {
+  transform: translate(0, 0);
+}
+
+button:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 0 40px;
+  }
+}
